@@ -9,6 +9,7 @@
 
 const fs = require('fs')
 const chalk = require('chalk')
+const port = process.env.PORT || 4000;
 
 //session
 global.sessionid ='ur session id'
@@ -33,7 +34,6 @@ global.creator = "2347013159244@s.whatsapp.net"
 global.xprefix = '.'
 global.premium = ["2347013159244"] // Premium User
 global.hituet = 0
-global.port = 5000
 
 //bot sett
 global.typemenu = 'v8' // menu type 'v1' => 'v8'
